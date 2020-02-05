@@ -1,0 +1,96 @@
+/*CSS DOCUMENT*/
+
+
+img {
+    
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body {
+    background-color: #F8FEFF;
+    
+}
+
+h1 {
+    font-family: "Times New Roman";
+    font-size: 4em;
+    font-weight: bold;
+    color: #507E5E;
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: "Times New Roman";
+    font-size: 1.65em;
+    font-weight: lighter;
+    text-transform:uppercase;
+    text-align: center;
+    letter-spacing: .55em;
+    
+}
+
+div.intro p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
+    font-size: 1.35em;
+    font-weight: normal;
+    font-style: oblique;
+    line-height: 1.5em;    
+}
+
+
+div.maincontent h3{
+    font-family: "Times New Roman";
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #507E5E;
+    
+}
+
+div.ingredients {    
+    margin-left: 10%;
+    width: 40%;
+   float: left;
+}
+
+div.directions {
+    margin-right: 10%;
+    width: 40%;
+    float: left;
+}
+
+div.maincontent ul {
+    list-style-type: circle;
+    line-height: 2em;
+    font-family: "Times New Roman";
+    font-size: 1.15em;
+    font-weight: normal;
+    width: 60%;
+    
+}
+
+div.maincontent ol {
+    line-height: 2em;
+    font-family: "Times New Roman";
+    font-size: 1.15em;
+    font-weight: normal;
+    margin-bottom: 15em;
+}
+
+
+footer {
+    float: none;
+    clear: both;
+    font-size: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    color: #C5E5CE;
+
+}
