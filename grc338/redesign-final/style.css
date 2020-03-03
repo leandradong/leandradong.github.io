@@ -1,0 +1,173 @@
+/*CSS DOCUMENT*/
+
+html {
+    height: 100%;
+    background-image: url(dumplings.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 5em;
+    color: rgb(220, 220, 220);
+    padding: .5em .75em;
+    text-align: left;
+    margin: 1.25em 0 0 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgb(220, 220, 220);
+    padding: 0 .5em;
+    margin: 5em 1.25em 0;
+}
+
+h3 {
+    color: rgb(220, 220, 220);
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding: .5em;
+    margin: 1em 1.25em 0;
+}
+
+h4 {
+    color: rgb(220, 220, 220);
+    font-size: 1.25em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 0.5em 0 0;
+}
+
+p {
+    color: rgb(220, 220, 220);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+.navigation a {
+    color: rgb(220, 220, 220);
+    font-size: 1.25em;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navigation ul {
+    position: fixed;
+    list-style-type: none;
+    top: 1em;
+}
+
+.navigation li {
+    float: left;
+    margin: 0em 1.5em 0.5em;
+    text-transform: uppercase;
+}
+
+.information {
+    width: 85%;
+    margin: auto;
+    padding: 0 0 10em 0;
+}
+
+.information p {
+    padding: .5em 0 1em 0;
+    margin: 0 3em 0;
+}
+
+.about {
+    width: 85%;
+    margin: auto;
+    padding: 0 0 10em 0;
+}
+
+.about p {
+    max-width: 90%;
+    line-height: 1.5em;
+    padding: 0 1.5em;
+}
+
+@media only screen and (min-width:20em) {
+    div.soup,
+    div.ricenoodles {
+        float: left;
+        margin-right: 10%;
+    }
+}
+
+.menu {
+    width: 85%;
+    margin: auto;
+    padding: 0 0 50em 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0 4.5em;
+}
+
+.menu h3 {
+    font-size: 1.75em;
+    padding: .5em 1em;
+    border-bottom: .05em solid #FFEAB2;
+}
+
+.menu p {
+    margin: 0.25em 1em 1.5em;
+}
+
+.photos {
+    width: 95%;
+    margin: auto;
+    padding: 0 0 10em 0;
+}
+
+.photos h2 {
+    padding: 0 1.25em .5em;
+}
+
+.contact {
+    width: 85%;
+    margin: auto;
+    padding: 0 0 10em 0;
+}
+
+.contact h3 {
+    margin: 1em 3em 0;
+    border-bottom: .05em solid #FFEAB2;
+    max-width: 40%;
+}
+
+.contact p {
+    padding: .5em 0 1em 0;
+    margin: 0 5em 0;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #E85833;
+}
+
+footer {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    bottom: 1em;
+    left: 1em;
+    position: fixed;
+}
