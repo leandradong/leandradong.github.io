@@ -9,18 +9,14 @@ html {
     background-attachment: fixed;
 }
 
-img {
-    width: 100%;
-}
 
 h1 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(220, 220, 220);
-    padding: .5em .75em;
-    text-align: left;
+    padding: 2em .75em;
     margin: 1.25em 0 0 0;
 }
 
@@ -28,8 +24,8 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     color: rgb(220, 220, 220);
-    padding: 0 .5em;
-    margin: 5em 1.25em 0;
+    padding: 0 ;
+    margin: 5em 0 0;
 }
 
 h3 {
@@ -76,27 +72,24 @@ p {
     text-transform: uppercase;
 }
 
-.information {
-    width: 85%;
-    margin: auto;
-    padding: 0 0 10em 0;
-}
 
-.information p {
-    padding: .5em 0 1em 0;
-    margin: 0 3em 0;
-}
 
 .about {
-    width: 85%;
+    width: 80%;
     margin: auto;
-    padding: 0 0 10em 0;
+    padding: 0 0 10em ;
 }
 
+@media only screen and (min-width: 60em) {
+    .about {
+        width: 50%;
+    }
+}
+
+
 .about p {
-    max-width: 90%;
     line-height: 1.5em;
-    padding: 0 1.5em;
+    margin-top: 1.5em;
 }
 
 @media only screen and (min-width:20em) {
@@ -108,9 +101,8 @@ p {
 }
 
 .menu {
-    width: 85%;
+    width: 80%;
     margin: auto;
-    padding: 0 0 50em 0;
 }
 
 .menu ul {
@@ -128,18 +120,25 @@ p {
     margin: 0.25em 1em 1.5em;
 }
 
+.ricenoodles {
+    margin-bottom: 10em;
+}
+
 .photos {
-    width: 95%;
-    margin: auto;
-    padding: 0 0 10em 0;
+    margin-left: 13%;
+    padding-bottom: 10em;
 }
 
 .photos h2 {
-    padding: 0 1.25em .5em;
+    padding: 0 0 .5em;
+}
+
+img {
+    max-width:85%; 
 }
 
 .contact {
-    width: 85%;
+    width: 80%;
     margin: auto;
     padding: 0 0 10em 0;
 }
